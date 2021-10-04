@@ -4,13 +4,19 @@
   "description": "Application pour simplifier la prise de rendez-vous et la gestion des patients chez les médecins ",
   "main": "Server.js",
   "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm run start",
+     "server-install": "npm install",
+    "client-install": "cd client && npm install",
+    "install-all": "concurrently \"npm run server-install\" \"npm run client-install\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"cd client && npm run build",
     "install-client":"cd client && npm install",
     "heroku-postbuild" : "npm run install-client && npm run build" ,
-    "back": "nodemon server",
-    "front": "cd client && npm start",
-    "dev": "concurrently \"npm run front\" \"npm run back\""
+   
   },
   "repository": {
     "type": "git",
