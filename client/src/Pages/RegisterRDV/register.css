@@ -1,0 +1,46 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 40vw;
+  border: 1px solid #d5dae2;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+}
+
+.formulaire p {
+  color: "red";
+  font-size: "12px";
+}
+.formulaire input {
+  margin: 10px;
+  border: 1px solid #d5dae2;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  width: 20vw;
+  line-height: 3vh;
+  padding: 10px;
+  font-weight: normal;
+}
+
+.all button {
+  margin: 10px;
+  padding: 13px 20px 12px;
+  background-color: #6b7aa1;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 24px;
+}

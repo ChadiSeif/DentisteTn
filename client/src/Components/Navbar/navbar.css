@@ -1,0 +1,7 @@
+.navbar {
+  background-color: #0f044c;
+  position: fixed;
+  width: 100%;
+  font-size: 15px;
+  color: white !important;
+}

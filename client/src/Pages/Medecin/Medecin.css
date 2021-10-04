@@ -1,0 +1,19 @@
+.medecinall {
+  display: flex;
+  justify-content: center;
+}
+
+.medecinprofil {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.medecinlistrdv {
+  width: 50%;
+  /* position: static; */
+  transform: translate(48%, -35%);
+}
+/* .medecinForm {
+  width: 500px;
+} */

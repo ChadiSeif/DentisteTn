@@ -1,0 +1,52 @@
+.SideBbar {
+  height: 90vh;
+  width: 10vw;
+  background-color: #f8f8f8;
+  font-size: 18px !important;
+  border-radius: 0 50 50 0;
+}
+
+.SidebbarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.listicontitle {
+  width: 100%;
+  height: 80px;
+  list-style-type: none;
+  margin: 0px;
+}
+.listicontitle span {
+  margin-top: 10px;
+  margin-block-start: 0px;
+  margin-right: 6px;
+}
+
+.icontitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.listicontitle:focus {
+  background-color: red;
+}
+
+.listicontitle :hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+.listicontitle #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.listicontitle #title {
+  flex: 70%;
+}

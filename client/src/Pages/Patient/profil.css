@@ -1,0 +1,14 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.profileSideBar {
+  width: 30%;
+}
+
+.profileContainer {
+  width: 70%;
+  padding: 20px 60px 20px 20px;
+}

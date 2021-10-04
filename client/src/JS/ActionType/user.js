@@ -1,0 +1,13 @@
+export const USER_LOAD = "USER_LOAD";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const USER_FAIL = "USER_FAIL";
+
+export const CURRENT_USER = "CURRENT_USER";
+export const LOGOUT = "LOGOUT";
+
+export const PRENDRE_RDV = "PRENDRE_RDV";
+export const PRENDRE_RDV_FAIL = "PRENDRE_RDV_FAIL";
+
+export const UPDATE_USER_SUCCESS = "UPDATE_USER_SUCCESS";
+export const UPDATE_USER_FAIL = "UPDATE_USER_FAIL";

@@ -1,0 +1,140 @@
+.landpage {
+  /* background-image: url(https://svgshare.com/i/_sg.svg); */
+  background-image: url(https://doctolib-doctolib-b2b-wordpress-assets-tooling-aws-global-de.s3.amazonaws.com/uploads/2021/01/dental-assistant-hero-illu.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  /* height: 1000px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landpage h1 {
+  margin-top: 150px;
+}
+
+.intro {
+  width: 800px;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  width: 800px;
+  margin-bottom: 50px;
+
+  /* position: relative; */
+  /* 
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.input1 {
+  height: 50px;
+  line-height: 16px;
+  padding: 0 46px;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  background-color: #fff;
+  color: #2b4660;
+  box-sizing: border-box;
+  outline: none;
+  width: 50%;
+  border-radius: 8px 0 0 8px;
+}
+
+.input2 {
+  height: 50px;
+  line-height: 16px;
+  padding: 0 46px;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  background-color: #fff;
+  color: #2b4660;
+  box-sizing: border-box;
+  outline: none;
+  width: 50%;
+  border-radius: 0px 0 0 0px;
+}
+
+.Button {
+  height: 50px;
+  color: #fff;
+  background: #787a91;
+  border-radius: 0 8px 8px 0;
+  padding: 10px;
+}
+
+.listmedecin {
+  padding: 20px;
+}
+
+.landpageInformation {
+  width: 90%;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* background-color: red; */
+  /* background-image: url("https://svgshare.com/i/aLs.svg"); */
+  background-color: rgba(255, 255, 255, 0.596);
+  background-position: top left;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.landpageArguments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+.landpageArguments p {
+  margin-top: 20px;
+  color: #6b7aa1;
+  width: 200px;
+}
+.landpageArguments > * {
+  margin-top: 30px;
+}
+
+.Specialite {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: 20px;
+  /* background-image: url(https://doctolib-doctolib-b2b-wordpress-assets-tooling-aws-global-de.s3.amazonaws.com/uploads/2021/01/dental-assistant-hero-illu.png); */
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.medecinlandpageinformations {
+  width: 90%;
+  height: 350px;
+  padding: 50px;
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.medecinlandpageinformations img {
+  height: 250px;
+  margin-right: 20px;
+}
+
+.medecinlandpageinformations ul {
+  list-style: none;
+  font-weight: bold;
+  color: #6b7aa1;
+  margin-top: 20px;
+  line-height: 40px;
+  text-align: center;
+}
